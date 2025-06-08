@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ReversedHorizonStudioPage",
   "resources": {
-    "hash": "sha256-TYx7Nrbcl1qoNgV1hUv4tpbptDnNQFV/QfyM+W6PRZU=",
+    "hash": "sha256-Jj7pXfD347M47VP6BhlOGntmZnIhUqVsmL1h8J4U5ag=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-J1+zIx10wEHeT4IhQ0QFZUx30ygOxOMSkD9opSPmp/s="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.js": "sha256-t76BRXwt7ie+t1popBz8/uUmIQCWeGU9XALjF0psLNw="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-W0biPYj7mfRvPSnfrNI4mOyvAjFq/pdpf1Aw/o9LwYI="
+      "dotnet.native.wasm": "sha256-saD3jTrj5l1ykHGpNruwd9NH49woGhBwnIVjpAZzKU4="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -37,8 +37,8 @@
       "System.Collections.NonGeneric.wasm": "sha256-L/idE2B57WsNs5veW4DSLFWy4H4qWiF7RnfUBd5ebJU=",
       "System.Collections.Specialized.wasm": "sha256-dj4AVufLAAZ0yoIKn2iZBI1ALk2R4Ocz2Wg/7o8Y7oI=",
       "System.Collections.wasm": "sha256-1DhuPJxoZ0zQLFcWY4bHdqjhxO2mZpSVmirGc6xlCAU=",
-      "System.ComponentModel.Primitives.wasm": "sha256-bFrh1UA/HpK33hbGVUD8L2DuhK11oM7J11+Lve/B3C8=",
-      "System.ComponentModel.TypeConverter.wasm": "sha256-8TsDtaw6ELyWwA5rTVB1oHg17VGB9VhyPqPRoWcMcKA=",
+      "System.ComponentModel.Primitives.wasm": "sha256-mIQif8OCv97Mgx+bsVfDFWgL/ovskLyz9rvS268qq9s=",
+      "System.ComponentModel.TypeConverter.wasm": "sha256-fK7Z+VylZYfYYzhVPXfZ4mz7hEGuWiNWESbdKNrCcRU=",
       "System.ComponentModel.wasm": "sha256-IYiS8atQVwkYAflPs8m6BRCgI2804RatWwg2UGnGMzU=",
       "System.Console.wasm": "sha256-+pMf7ewZQGdXfZqdZ0/lgg+lY+oi1YRMrjDvwOYgTfs=",
       "System.Diagnostics.DiagnosticSource.wasm": "sha256-1ks9g6FGguRMV0jctSYor49x1dg/jXoWOAiRlKUpPGk=",
@@ -65,8 +65,8 @@
       "System.Xml.XPath.wasm": "sha256-2LRLyfooT6d9jh7BcODJE4TuBdQPbG0Srm69sCcH7Wo=",
       "System.Xml.XmlSerializer.wasm": "sha256-mXUIcMgzxJDC5YnrPmgFSRTFXfnORCOJjDjf3nmVMe0=",
       "System.wasm": "sha256-pAY9GZZ7nipBlYcbrQukH9oxvgW24CQewcWTkItVHOs=",
-      "System.Private.CoreLib.wasm": "sha256-dC9IiJeCHg6CWBD/kfKVdvukdTWfBpyPH1vh7MrSfkc=",
-      "ReversedHorizonStudioPage.wasm": "sha256-fbVic5HP86TOJmqFHOi5RKu1ekJLIuZ7z/WwEU9VnT8="
+      "System.Private.CoreLib.wasm": "sha256-jX9urFRYpFean0g1I9Lo216SyGLGcfelA5sfIvRPwmQ=",
+      "ReversedHorizonStudioPage.wasm": "sha256-mOQURDUFUabxxfsuPCoYsKXYXXwLWPmr3VFMiExwI8w="
     }
   },
   "cacheBootResources": true,

@@ -1,25 +1,4 @@
-﻿/* Root Theme Variables */
-/*:root {
-    --bg-color: #f4f4f4;
-    --card-bg: #fff;
-    --text-color: #333;
-    --input-bg: #fff;
-    --button-bg: #0984e3;
-    --button-hover-bg: #0056b3;
-    --result-bg: #f0f0f0;
-}
-
-body.dark-mode {
-    --bg-color: #121212;
-    --card-bg: #1e1e1e;
-    --text-color: #eee;
-    --input-bg: #2a2a2a;
-    --button-bg: #4a90e2;
-    --button-hover-bg: #357ab8;
-    --result-bg: #2e2e2e;
-}*/
-
-/* Base Styles */
+﻿/* Base Styles */
 html, body {
     font-family: sans-serif;
     background-color: #f4f4f4;
@@ -128,7 +107,7 @@ html, body {
         position: absolute;
         left: 110%;
         top: 50%;
-        transform: translateY(-50%) translateX(-10px); /* slight initial offset */
+        transform: translateY(-50%) translateX(-10px);
         z-index: 1000;
         font-family: 'asapcondensedregular';
         font-size: 17px;
@@ -402,7 +381,7 @@ html, body {
 }
 
 .select-indent {
-    appearance: none; /* Remove default styling */
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     padding: 10px 40px 10px 15px;
@@ -483,6 +462,55 @@ html, body {
         opacity: 0;
     }
 }
+
+.palette-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+}
+
+.message-notice-box {
+    outline: none;
+    border: none;
+    color: #000;
+    padding: 9px;
+    border-radius: 100px;
+    justify-content: center;
+    margin: 0px 0px 0px 5px;
+    font-family: 'asapcondensedsemibold';
+    transition: opacity 0.4s ease;
+    opacity: 0;
+}
+
+    .message-notice-box.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+.palettes-grid {
+    width: 100%;
+    height: calc(100vh - 167px);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow:clip;
+}
+
+    .palettes-grid > .color-box {
+        padding:20px 15px;
+    }
+
+    .palettes-grid > .color-box > .color-name {
+        color: #fff;
+        font-size: 1em;
+        font-family: 'asapcondensedsemibold';
+        background-color:rgba(0, 0, 0, 0.2);
+        padding: 5px 20px;
+        border-radius: 50px;
+    }
 
 /* Responsive tweaks */
 @media (max-width: 1024px) {

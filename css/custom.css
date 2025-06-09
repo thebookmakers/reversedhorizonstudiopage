@@ -330,8 +330,8 @@ html, body {
     margin: 0px 0px 0px 5px;
 }
 
-    .beautifier-buttons > i {
-        margin-right: 5px;
+    .beautifier-buttons > span {
+        margin-left: 5px !important;
     }
 
 .modify-value-button {
@@ -463,6 +463,35 @@ html, body {
     }
 }
 
+.starting-up {
+    position: absolute;
+    top: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+    .starting-up > .starting-up-container {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+.spinner-border {
+    display: inline-block;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .palette-row {
     display: flex;
     flex-wrap: wrap;
@@ -503,14 +532,15 @@ html, body {
         padding:20px 15px;
     }
 
-    .palettes-grid > .color-box > .color-name {
-        color: #fff;
-        font-size: 1em;
-        font-family: 'asapcondensedsemibold';
-        background-color:rgba(0, 0, 0, 0.2);
-        padding: 5px 20px;
-        border-radius: 50px;
-    }
+        .palettes-grid > .color-box > .color-name {
+            color: #fff;
+            font-size: 14px;
+            font-family: 'asapcondensedsemibold';
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 5px 20px;
+            border-radius: 50px;
+            white-space: nowrap;
+        }
 
 /* Responsive tweaks */
 @media (max-width: 1024px) {

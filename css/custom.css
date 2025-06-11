@@ -21,12 +21,6 @@ html, body {
     width: 100vw;
 }
 
-.footer {
-    height: 150px;
-    width: calc(100vw - 20px);
-    background-color: #ff7800;
-}
-
 /* Header */
 .headerpage {
     height: 69px;
@@ -38,17 +32,38 @@ html, body {
     margin-bottom: 20px;
     border-bottom: 1px dashed #ccc;
     overflow: hidden;
+    user-select:none;
 }
 
-    .headerpage > .pagename {
-        font-family: 'asapcondensedbold';
-        font-size: 20px;
-    }
+.headerimage {
+    height: 50px;
+}
 
-        .headerpage > .pagename > span {
-            color: #ffa502;
-            font-family: 'asapcondensedextralight';
-        }
+.title-container {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* optional: space between logo, slash, and title */
+}
+
+.pagename-separator {
+    color: #ccc;
+    font-size: 30px;
+}
+
+.pagename-title {
+    color: #f39c12;
+    font-family: 'asapcondensedextralight';
+    font-size: 20px;
+}
+
+.headerpage > .pagename {
+    font-family: 'asapcondensedextralight';
+    font-size: 20px;
+}
+
+    .headerpage > .pagename > span {
+        height: 50px;
+    }
 
     .headerpage > .accent {
         user-select: none;

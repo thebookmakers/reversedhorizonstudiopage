@@ -145,6 +145,50 @@ html, body {
     padding: 0 20px 20px 20px;
 }
 
+.home-info1 {
+    width: calc(30vw - 60px);
+    height: calc(100vh - 570px);
+    background: #2c3e50;
+    border-radius: 20px;
+    margin: 20px 10px 0px 0px;
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+    padding: 20px;
+    color: #fff;
+}
+
+    .home-info1 > span {
+        font-family: 'asapcondensedregular';
+        font-size: 20px;
+        text-align: right;
+    }
+
+.home-info2 {
+    width: calc(70vw - 155px);
+    height: calc(100vh - 570px);
+    background: #f39c12;
+    border-radius: 20px;
+    margin: 20px 0px 0px 10px;
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+    padding: 20px;
+    color: #fff;
+}
+
+    .home-info2 > span {
+        font-family: 'asapcondensedregular';
+        font-size: 20px;
+        text-align: left;
+    }
+
 /* Converter Card Layout */
 .converter-container {
     display: flex;
@@ -538,7 +582,7 @@ html, body {
 
 .palettes-grid {
     width: 100%;
-    height: calc(100vh - 167px);
+    height: calc(100vh - 170px);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);

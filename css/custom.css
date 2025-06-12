@@ -21,6 +21,10 @@ html, body {
     width: 100vw;
 }
 
+.loadinglogo {
+    max-width: 400px;
+}
+
 /* Header */
 .headerpage {
     height: 69px;
@@ -480,7 +484,7 @@ html, body {
 
 .starting-up {
     position: absolute;
-    top: 50vh;
+    top: calc(50vh - 200px);
     width: 100%;
     text-align: center;
 }

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ReversedHorizonStudioPage",
   "resources": {
-    "hash": "sha256-X8LDNIwiq6fqwZqzYk13vlayXe0t0VT3VM/MBO1kcfE=",
+    "hash": "sha256-MmOWUWfgx6l7VHtPUaS3b9piGJ5+0+wc2i3W3W1bHgU=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-J1+zIx10wEHeT4IhQ0QFZUx30ygOxOMSkD9opSPmp/s="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.js": "sha256-t76BRXwt7ie+t1popBz8/uUmIQCWeGU9XALjF0psLNw="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-mM0Jaom2T0wZcrvPDMNX+M2vhcgejwvWRMqAGFQZXeg="
+      "dotnet.native.wasm": "sha256-u3MGVmPcMHvAr7MySHy0W3yfysT6Vn+ZPMJAosDBCEI="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -66,7 +66,7 @@
       "System.Xml.XmlSerializer.wasm": "sha256-mXUIcMgzxJDC5YnrPmgFSRTFXfnORCOJjDjf3nmVMe0=",
       "System.wasm": "sha256-pAY9GZZ7nipBlYcbrQukH9oxvgW24CQewcWTkItVHOs=",
       "System.Private.CoreLib.wasm": "sha256-jX9urFRYpFean0g1I9Lo216SyGLGcfelA5sfIvRPwmQ=",
-      "ReversedHorizonStudioPage.wasm": "sha256-XZyqWFetMXa/894/DoLtsRhRULktRwCDf7utgpxjlC0="
+      "ReversedHorizonStudioPage.wasm": "sha256-LEYCcz6jWiUhn4TjBAJnKFKOjwmGrpkpeWXpkGnu6R4="
     }
   },
   "cacheBootResources": true,

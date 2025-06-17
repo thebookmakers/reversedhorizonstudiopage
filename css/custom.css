@@ -433,7 +433,7 @@ body {
     .color-box > .color-name {
         color: #fff;
         font-size: 14px;
-        font-family: 'asapcondensedsemibold';
+        font-family: 'asapcondensedregular';
         background-color: rgba(0, 0, 0, 0.2);
         padding: 5px 20px;
         border-radius: 50px;
@@ -577,7 +577,7 @@ body {
 
 /* Loading Logo */
 .loadinglogo {
-    max-width: 400px;
+    max-width: 300px;
 }
 
 /* Main */
@@ -781,9 +781,18 @@ body {
 
     .starting-up > .starting-up-container {
         display: flex;
-        gap: 10px;
+        gap: 40px;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+    }
+
+    .starting-up-container > .loading-notice {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:row;
+        gap:10px;
     }
 
 /* Status Bar */
